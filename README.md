@@ -26,22 +26,22 @@ This project uses data analysis and machine learning (specifically **XGBoost**) 
 ## Exploratory Data Analysis (EDA)
 
 ### Historical Demand Over Time
-![Electricity Demand Over Time](images/ElectricityDemandOverTime.png)
+![Electricity Demand Over Time](data/images/ElectricityDemandOverTime.png)
 
 *Historical consumption patterns from 2020 through early 2025 showing clear seasonality.*
 
 ### Demand Drivers & Correlations
-![Correlation Matrix](images/correlationMatrixoffeatures.png)
+![Correlation Matrix](data/images/correlationMatrixoffeatures.png)
 *The correlation matrix reveals a strong positive relationship ($0.83$) between **Temperature** and **Demand**.*
 
 ### Seasonality & Trends
 | Hourly Trends | Monthly Trends |
 | :--- | :--- |
-| ![Demand by Hour](images/DemandbyHouroftheday.png) | ![Demand by Month](images/Demandbymonth.png) |
+| ![Demand by Hour](data/images/DemandbyHouroftheday.png) | ![Demand by Month](images/Demandbymonth.png) |
 | *Demand peaks during midday and evening hours.* | *Higher demand is observed during summer months (June–August).* |
 
 ### Temperature Impact
-![Demand vs Temperature](images/DemandVsTemperature.png)
+![Demand vs Temperature](data/images/DemandVsTemperature.png)
 *A scatter plot visualizing how demand scales upward as temperatures increase.*
 
 ---
@@ -50,7 +50,7 @@ This project uses data analysis and machine learning (specifically **XGBoost**) 
 We utilized an **XGBoost regressor** to predict demand based on temporal features and weather data.
 
 ### Prediction Performance
-![XGBoost Prediction](images/XGBoostElectricityDemandPrediction.png)
+![XGBoost Prediction](data/images/XGBoostElectricityDemandPrediction.png)
 *The model (red dashed line) closely follows the actual demand (blue line), capturing both daily cycles and seasonal peaks.*
 
 ---
