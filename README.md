@@ -37,7 +37,7 @@ This project uses data analysis and machine learning (specifically **XGBoost**) 
 ### Seasonality & Trends
 | Hourly Trends | Monthly Trends |
 | :--- | :--- |
-| ![Demand by Hour](data/images/DemandbyHouroftheday.png) | ![Demand by Month](images/Demandbymonth.png) |
+| ![Demand by Hour](data/images/DemandbyHouroftheday.png) | ![Demand by Month](data/images/Demandbymonth.png) |
 | *Demand peaks during midday and evening hours.* | *Higher demand is observed during summer months (June–August).* |
 
 ### Temperature Impact
