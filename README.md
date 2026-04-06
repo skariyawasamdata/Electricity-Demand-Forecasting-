@@ -12,7 +12,7 @@ Electricity demand forecasting is essential for:
 
 This project uses data analysis and machine learning (specifically **XGBoost**) to forecast future electricity demand.
 
-
+---
 
 ##  Tools & Technologies
 * **Python**: Core programming language
@@ -26,7 +26,7 @@ This project uses data analysis and machine learning (specifically **XGBoost**) 
 ## Exploratory Data Analysis (EDA)
 
 ### Historical Demand Over Time
-![Electricity Demand Over Time](images\Electricity Demand Over Time.png)
+![Electricity Demand Over Time](images/ElectricityDemandOverTime.png)
 
 *Historical consumption patterns from 2020 through early 2025 showing clear seasonality.*
 
@@ -37,7 +37,7 @@ This project uses data analysis and machine learning (specifically **XGBoost**) 
 ### Seasonality & Trends
 | Hourly Trends | Monthly Trends |
 | :--- | :--- |
-| ![Demand by Hour](C:\Users\sache\OneDrive\Documents\GitHub\Electricity-Demand-Forecasting-\images\Demand by Hour of the day.png) | ![Demand by Month](images/Demand by month.png) |
+| ![Demand by Hour](images\Demand by Hour of the day.png) | ![Demand by Month](images/Demand by month.png) |
 | *Demand peaks during midday and evening hours.* | *Higher demand is observed during summer months (June–August).* |
 
 ### Temperature Impact
